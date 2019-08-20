@@ -1,3 +1,7 @@
 version: "2"
 domain: example.com
 repo: github.com/youngchul/memcached-controller
+resources:
+- group: cache
+  version: v1alpha1
+  kind: Memcached
